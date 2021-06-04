@@ -10,12 +10,69 @@
 <body>
     <section id="input">
         <h2 class="titolone">calcola il prezzo del tuo bliglietto</h2>
+        <div class="box-input">
+            <div id="dati" class="box-dati space-around">
+                <div>
+                    <label for="identita">Nome Cognome </label>
+                    <input  id="identita" type="text">
+                </div>
+
+                <div>
+                    <label for="km">Km da percorrere </label>
+                    <input id="km" type="number">
+                </div>
+
+                <div>
+                    <label for="eta">Fascia d'età </label>
+                    <select id="eta">
+                        <option id="minorenne" value="Minorenne">Minorenne</option>
+                        <option id="maggiorenne" value="Maggiorenne">Maggiorenne</option>
+                        <option id="over-65" value="Over 65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="pulsanti" class="box-dati center">
+                <button id="genera">Genera</button>
+                <button id="Annulla">Annulla</button>
+
+            </div>
+        </div>
 
     </section>
 
     <section id="output">
         <h2 class="titolone">il tuo biglietto</h2>
+        <div id="box-ext-out">
+            <div>
+                <h4>dettagli passeggeri</h4>
+                <hr>
+            </div>
 
+            <div class="flex">
+                <div id="nome">
+                    <h4>nome passeggero</h4>
+                </div>
+    
+                <div>
+                    <table style="width:100%">
+                        <tr>
+                          <th>Offerta</th>
+                          <th>Carrozza</th>
+                          <th>Copice CP</th>
+                          <th>Costo Biglietto</th>
+                        </tr>
+                        <tr>
+                          <td>Jill</td>
+                          <td>Smith</td>
+                          <td>50</td>
+                          <td>50</td>
+                        </tr>
+                      </table> 
+                </div>
+            </div>
+            <hr>
+        </div>
     </section>
     
 </body>

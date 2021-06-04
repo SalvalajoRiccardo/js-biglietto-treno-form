@@ -3,13 +3,93 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* generali */
 
-.body {
-    height: 100vh;
-    background-color: teal;
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .titolone {
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+/* body */
+body {
+    height: 100vh;
+    background-color: teal;
+}
+
+/* zona input */
+.box-input {
+    background-color: white;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box-dati {
+    display: flex;
+    margin-top: 20px;
+    color: teal;
+    font-size: 18px;
+}
+
+.box-dati label {
+    display: block;
+}
+
+.box-dati button {
+    color: teal;
+    margin: 40px 10px 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* zona output */
+
+#box-ext-out {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+#box-ext-out h4 {
+    text-transform: uppercase;
+}
+
+#nome {
+    background-color: greenyellow;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 20px;
+}
+
+#box-ext-out table {
+    padding: 20px;
+    font-size: 20px;
+}
+
+table * {
+    padding: 10px;
 }
