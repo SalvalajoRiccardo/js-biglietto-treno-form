@@ -93,3 +93,8 @@ body {
 table * {
     padding: 10px;
 }
+
+#id {
+    font-size: 16px;
+    text-transform: uppercase;
+}

@@ -25,23 +25,24 @@
                 <div>
                     <label for="eta">Fascia d'età </label>
                     <select id="eta">
+                        <option id="vuoto" value="vuoto"></option>
                         <option id="minorenne" value="Minorenne">Minorenne</option>
                         <option id="maggiorenne" value="Maggiorenne">Maggiorenne</option>
-                        <option id="over-65" value="Over 65">Over 65</option>
+                        <option id="over-65" value="Over-65">Over 65</option>
                     </select>
                 </div>
             </div>
 
             <div id="pulsanti" class="box-dati center">
                 <button id="genera">Genera</button>
-                <button id="Annulla">Annulla</button>
+                <button id="annulla">Annulla</button>
 
             </div>
         </div>
 
     </section>
 
-    <section id="output">
+    <section id="output" class="hidden">
         <h2 class="titolone">il tuo biglietto</h2>
         <div id="box-ext-out">
             <div>
@@ -52,6 +53,8 @@
             <div class="flex">
                 <div id="nome">
                     <h4>nome passeggero</h4>
+                    <br>
+                    <span id="id"></span>
                 </div>
     
                 <div>
